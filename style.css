@@ -1,0 +1,239 @@
+/* Add your custom CSS here */
+/* Navbar Styles */
+.navbar {
+    background-color: transparent;
+    padding: 20px 0;
+    transition: background-color 0.5s;
+}
+
+.navbar a.nav-link {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar a.nav-link:hover {
+    color: #007bff;
+}
+
+/* Home Section Styles */
+.home-section {
+    background-image: url('home-background.jpg');
+    background-color: #250821;
+    background-size: cover;
+    color: rgb(239, 235, 235);
+    text-align: center;
+    padding: 100px 0;
+}
+.home-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.home-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.home-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: #292e33;
+    padding: 100px 0;
+    color: antiquewhite;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #007bff;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+/* Services Section Styles */
+.services-section {
+    padding: 100px 0;
+    background-color:#250821 ;
+    color: antiquewhite;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Skills Section Styles */
+.skills-section {
+    background-color: #292e33;
+    padding: 100px 0;
+    color: antiquewhite;
+}
+
+.skills-section h2 {
+    font-size: 36px;
+}
+
+.skill {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.skill h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #007bff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+    margin-top: 60px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+    padding: 100px 0;
+    background-color: #250821;
+    color: antiquewhite;
+}
+
+.portfolio-section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 100px 0;
+    background-color:#292e33;
+    color: antiquewhite;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section Styles */
+.footer-section {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .home-section h1 {
+        font-size: 28px;
+    }
+    .home-section h2 {
+        font-size: 28px;
+    }
+
+    .home-section p {
+        font-size: 16px;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .services-section h2 {
+        font-size: 28px;
+    }
+
+    .service-box h3 {
+        font-size: 20px;
+    }
+
+    .skills-section h2 {
+        font-size: 28px;
+    }
+
+    .skill h4 {
+        font-size: 20px;
+    }
+
+    .portfolio-section h2 {
+        font-size: 28px;
+    }
+
+    .contact-section h2 {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+}
+.container{
+    height: 100vh;
+    width: 100wh;
+    background-color: black;
+}
+.nav-bar{
+    height: 10vh;
+    width: 100wh;
+    background-color: white;
+}
+.under-list{
+    list-style: none;
+    display: flex;
+}
+.listing{
+    float: left;
+    padding: 10px;
+    margin-left:10%;
+}
